@@ -1,4 +1,4 @@
-name: 'Test'
+name: 'test001'
 
 on:
   push:
