@@ -3,7 +3,7 @@ name: 'Smart-parsing'
 on:
   push:
     branches: 
-      - masterhttps://docs.github.com/actions/reference/workflow-syntax-for-github-actions#onschedule
+      - master
   schedule:
     - cron: '*/16 * * * *'
 
