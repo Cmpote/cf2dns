@@ -1,11 +1,11 @@
-name: 'test1'
+name: 'Smart parsing'
 
 on:
   push:
     branches: 
-      - master
+      - masterhttps://docs.github.com/actions/reference/workflow-syntax-for-github-actions#onschedule
   schedule:
-    - cron: '*/16 * * * *'
+    - cron: '0 0 0,12 ? * * *'
 
 jobs:
   build:
