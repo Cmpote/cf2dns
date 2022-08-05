@@ -5,7 +5,7 @@ on:
     branches: 
       - masterhttps://docs.github.com/actions/reference/workflow-syntax-for-github-actions#onschedule
   schedule:
-    - cron: '0 0 0,12 ? * * *'
+    - cron: '*/16 * * * *'
 
 jobs:
   build:
